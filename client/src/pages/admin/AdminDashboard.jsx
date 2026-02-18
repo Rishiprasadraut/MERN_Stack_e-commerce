@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import AdminSidebar from "../../component/admin/AdminSidebar";
 import StatCard from "../../component/admin/StatCard";
+import SalesChart from "../../component/admin/SalesChart";
+import OrdersBarChart from "../../component/admin/OrdersBarChart";
 import { Package, ShoppingBag, Users, IndianRupee, Menu, X, ArrowUpRight, PlusCircle } from "lucide-react";
 import { getAdminStats } from "../../api/adminApi";
 
@@ -92,6 +94,12 @@ const AdminDashboard = () => {
             <StatCard title="Total Orders" value={stats?.totalOrders} icon={ShoppingBag} color="blue" />
             <StatCard title="Total Users" value={stats?.totalUsers} icon={Users} color="violet" />
             <StatCard title="Revenue" value={`₹${stats?.revenue?.toLocaleString()}`} icon={IndianRupee} color="emerald" />
+          </div>
+
+          {/* 📊 CHARTS SECTION */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+            <SalesChart data={stats?.chartData || []} />
+            <OrdersBarChart data={stats?.chartData || []} />
           </div>
 
           {/* 🛠️ QUICK ACTIONS / TABLES AREA */}

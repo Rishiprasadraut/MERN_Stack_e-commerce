@@ -152,7 +152,7 @@ const AdminOrders = () => {
                           disabled={order.orderStatus === "Delivered" || order.orderStatus === "Cancelled"}
                           className={`appearance-none w-full px-4 py-2.5 rounded-xl border text-xs font-bold focus:outline-none cursor-pointer transition-all disabled:cursor-not-allowed disabled:opacity-60 ${getStatusColor(order.orderStatus)}`}
                         >
-                          {[order.orderStatus, ...getValidStatuses(order.orderStatus)].map((status) => (
+                          {getValidStatuses(order.orderStatus).map((status) => (
                             <option key={status} value={status}>{status}</option>
                           ))}
                         </select>
@@ -198,7 +198,7 @@ const AdminOrders = () => {
                     disabled={order.orderStatus === "Delivered" || order.orderStatus === "Cancelled"}
                     className={`appearance-none w-full px-4 py-3.5 rounded-xl border text-sm font-bold focus:outline-none transition-all ${getStatusColor(order.orderStatus)} ${(order.orderStatus === "Delivered" || order.orderStatus === "Cancelled") ? "opacity-60 cursor-not-allowed" : ""}`}
                   >
-                    {[order.orderStatus, ...getValidStatuses(order.orderStatus)].map((status) => (
+                    {getValidStatuses(order.orderStatus).map((status) => (
                       <option key={status} value={status}>{status}</option>
                     ))}
                   </select>
