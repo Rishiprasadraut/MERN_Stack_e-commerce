@@ -169,5 +169,25 @@ The app will be running at:
 ## 🖼️ Screenshots
 
 > Add screenshots of your application here
+Normal USER
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144309" src="https://github.com/user-attachments/assets/beee3424-323f-4074-aac8-2b4b1b67b754" />
+
+> <img width="1920" height="1080" alt="Screenshot 2026-02-18 144322" src="https://github.com/user-attachments/assets/b9a9063d-7d68-4473-ba21-b9a36d7cda61" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144335" src="https://github.com/user-attachments/assets/79e6c32c-80c0-4572-a020-f2262a1e847c" />
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144349" src="https://github.com/user-attachments/assets/74e81090-bb47-4285-9ed7-ca44ec24d397" />
+
+Admin Panel
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144447" src="https://github.com/user-attachments/assets/89fcc093-9819-4e88-8f1e-5f1369db6e56" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144459" src="https://github.com/user-attachments/assets/b2d057c8-8625-462f-b05a-a76c01e3aa0f" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144515" src="https://github.com/user-attachments/assets/4b1ffa9d-1405-4054-b71a-f87027ffb2f0" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-02-18 144531" src="https://github.com/user-attachments/assets/b86feabc-afcc-4c60-8f7c-ed35f250cab5" />
+
+
+
 
 ---
